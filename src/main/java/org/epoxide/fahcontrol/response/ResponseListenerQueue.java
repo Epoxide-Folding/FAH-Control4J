@@ -1,5 +1,8 @@
 package org.epoxide.fahcontrol.response;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class ResponseListenerQueue extends ResponseListenerBase {
 
     public ResponseListenerQueue (int id, int frequency, String command) {
